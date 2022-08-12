@@ -216,9 +216,13 @@ nav img.logo {
     border-radius: 0 30px 30px 0;
     bottom: 0px;
     right: 0;
+    transition:.2s ease all;
     z-index: -1;
 }
-
+.select__trigger:hover::after {
+    filter:brightness(1.2);
+    transition:.2s ease all;
+}
 .arrow {
     position: relative;
     height: 15px;
